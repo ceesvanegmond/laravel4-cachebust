@@ -1,0 +1,23 @@
+{
+    "name": "ceesvanegmond/cachebust",
+    "description": "A small library to add cachebusting to images. Use the cachebust() helper to get the cachebusted file + timestamp.",
+    "authors": [
+        {
+            "name": "Cees van Egmond",
+            "email": "cees@ceesvanegmond.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "CeesVanEgmond\\Cachebust": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
