@@ -1,5 +1,6 @@
 {
     "name": "ceesvanegmond/cachebust",
+    "keywords": ["cache", "cachebust", "laravel"],
     "description": "A small Laravel4 library to add cachebusting to images. Use the cachebust() helper to get the cachebusted file + timestamp.",
     "authors": [
         {
