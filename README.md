@@ -22,4 +22,8 @@ Dont forget to add this in your public/.htaccess to make it work:
  <pre>
   img src="{{ cachebust('images/image.png') }}">
  </pre>
+ Or with Blade templating:
+  <pre>
+  	{{ HTML::image( cachebust('images/image.png') ) }}
+ </pre>
  Is you have any questions, bugs of comments, mention it in this repository.
