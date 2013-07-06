@@ -20,6 +20,6 @@ Dont forget to add this in your public/.htaccess to make it work:
  
  You may now use it like this:
  <pre>
-  img src="{{ cachebust('images/image.png' }}">
+  img src="{{ cachebust('images/image.png') }}">
  </pre>
  Is you have any questions, bugs of comments, mention it in this repository.
